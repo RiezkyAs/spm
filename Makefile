@@ -3,7 +3,7 @@ install:
 	@clear
 	apt-get install bash curl wget jq
 	apt-get install python3 python3 pip
-	apt-get install clang ncurses-term ncurses-bin bc
+	apt-get install clang
 	python3 -m pip install -r data/requirements.txt
 	@gcc main.c -o main
 	@clear
